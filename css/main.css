@@ -1,0 +1,42 @@
+@import 'reset.css';
+@import 'vars.css';
+@import 'style.css';
+@import 'hover.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    color: var(--white-text);
+    background-color: var(--default-background);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+/* Background Color Tags */
+
+.bgc__dark {
+    background-color: var(--background-dark);
+    transition: all 0.3s ease-in-out;
+}
+
+.bgc__light {
+    background-color: var(--background-light);
+    transition: all 0.3s ease-in-out;
+}
+
+.bgc__green {
+    background-color: var(--background-green);
+    transition: all 0.3s ease-in-out;
+}
+
+.bgc__red {
+    background-color: var(--background-red);
+    transition: all 0.3s ease-in-out;
+}

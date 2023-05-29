@@ -1,0 +1,40 @@
+/* Buttons Inner */
+.buttons__inner {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    row-gap: 10px;
+}
+
+/* Buttons Color */
+.btn__dark {
+    border: 1px solid var(--button-dark-border);
+    background-color: var(--button-dark);
+}
+
+.btn__light {
+    border: 1px solid var(--button-light-border);
+    color: var(--dark-text);
+    background-color: var(--button-light);
+}
+
+.btn__green {
+    border: 1px solid var(--button-green-border);
+    background-color: var(--button-green);
+}
+
+.btn__red {
+    border: 1px solid var(--button-red-border);
+    background-color: var(--button-red);
+}
+
+/* Button */
+.button {
+    padding: 20px 45px;
+
+    font-size: 22px;
+    font-weight: 600;
+
+    border-radius: 15px;
+}
